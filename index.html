@@ -6,19 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Johnny Doe</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.css"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./style/css/style.css" />
+    <link rel="stylesheet" href="./src/style/css/style.css" />
   </head>
-  <body>
-    <h1>It's working!</h1>
-    <button type="button" class="btn btn-primary">Test primary!</button>
+  <body data-bs-theme="dark">
+    <div class="form-check form-switch mx-4">
+      <input
+        class="form-check-input p-2"
+        type="checkbox"
+        role="switch"
+        id="flexSwitchCheckChecked"
+        checked
+        onclick="themeSwitcher()"
+      />
+    </div>
+    <div class="container-fluid">
+      <!-- Navbar Start -->
+
+      <!-- Navbar End -->
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/js/themeSwitcher.js"></script>
   </body>
 </html>
