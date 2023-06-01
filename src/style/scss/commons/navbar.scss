@@ -4,6 +4,7 @@
 
 .nav-link {
   font-size: 0.8rem;
+  font-weight: var(--fw-semi);
 }
 
 .nav-link:hover {
@@ -12,10 +13,11 @@
 
 .theme__text {
   font-size: 0.8rem;
+  font-weight: var(--fw-semi);
   color: var(--bs-nav-link-color);
   margin-inline-end: 0.4rem;
 
   @media (min-width: 992px) {
-    margin-inline-start: 2rem;
+    margin-inline-start: 4rem;
   }
 }

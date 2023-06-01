@@ -11865,6 +11865,9 @@ textarea.form-control-lg {
 :root {
   /* Fonts */
   --ff-primary: "Montserrat", sans-serif;
+  --fw-light: 200;
+  --fw-semi: 600;
+  --fw-bold: 700;
   /* Effects */
   --transition: all 0.5s ease;
 }
@@ -11880,6 +11883,7 @@ body {
 
 .nav-link {
   font-size: 0.8rem;
+  font-weight: var(--fw-semi);
 }
 
 .nav-link:hover {
@@ -11888,12 +11892,13 @@ body {
 
 .theme__text {
   font-size: 0.8rem;
+  font-weight: var(--fw-semi);
   color: var(--bs-nav-link-color);
   margin-inline-end: 0.4rem;
 }
 @media (min-width: 992px) {
   .theme__text {
-    margin-inline-start: 2rem;
+    margin-inline-start: 4rem;
   }
 }
 
