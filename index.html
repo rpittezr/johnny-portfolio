@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
@@ -22,21 +22,63 @@
     <link rel="stylesheet" href="./src/style/css/style.css" />
   </head>
   <body data-bs-theme="dark">
-    <div class="form-check form-switch mx-4">
-      <input
-        class="form-check-input p-2"
-        type="checkbox"
-        role="switch"
-        id="flexSwitchCheckChecked"
-        checked
-        onclick="themeSwitcher()"
-      />
+    <!-- Navbar Start -->
+    <div class="container-fluid shadow">
+      <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="navbar-logo"
+              src="./assets/images/logo.svg"
+              alt="Johnny Doe Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <span class="theme__text">THEME</span>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input p-2"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckChecked"
+                    checked
+                    onclick="themeSwitcher()"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class="container-fluid">
-      <!-- Navbar Start -->
-
-      <!-- Navbar End -->
-    </div>
+    <!-- Navbar End -->
 
     <!-- Bootstrap JS -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

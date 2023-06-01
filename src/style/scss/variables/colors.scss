@@ -1,1 +1,7 @@
-$primary: #c48f56;
+:root {
+  [data-bs-theme="dark"] {
+    --bs-body-bg: #121212;
+  }
+}
+
+$primary: hsl(31, 48%, 55%);

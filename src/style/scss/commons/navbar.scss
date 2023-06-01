@@ -1,0 +1,21 @@
+.navbar-logo {
+  max-width: 180px;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+}
+
+.nav-link:hover {
+  color: $primary;
+}
+
+.theme__text {
+  font-size: 0.8rem;
+  color: var(--bs-nav-link-color);
+  margin-inline-end: 0.4rem;
+
+  @media (min-width: 992px) {
+    margin-inline-start: 2rem;
+  }
+}

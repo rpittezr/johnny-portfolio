@@ -1,6 +1,8 @@
 // Import Custom Variables
 @import "./variables/colors.scss";
-// Import Common Styles
-@import "./commons/common.scss";
 // Import Core Bootstrap Styles
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import Common Styles
+@import "./commons/common.scss";
+@import "./commons/navbar.scss";

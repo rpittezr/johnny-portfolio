@@ -1,8 +1,13 @@
 :root {
-  // Fonts
-
+  /* Fonts */
   // Family
-  --ff-primary: "Cormorant Garamond", serif;
+  --ff-primary: "Montserrat", sans-serif;
+
+  /* Effects */
+  --transition: all 0.5s ease;
 }
 
 /* General Styles */
+body {
+  font-family: var(--ff-primary);
+}
