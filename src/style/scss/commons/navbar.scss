@@ -1,3 +1,10 @@
+#navbar {
+  background-color: rgba($color: hsl(0, 0%, 95%), $alpha: 0.95);
+}
+[data-bs-theme="dark"] #navbar {
+  background-color: rgba($color: hsl(0, 0%, 7%), $alpha: 0.85);
+}
+
 .navbar__section {
   background-color: $black;
 }
