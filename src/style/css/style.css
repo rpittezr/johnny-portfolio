@@ -1,7 +1,11 @@
 @charset "UTF-8";
+:root {
+  --bg-color-200: hsl(0, 0%, 93%);
+  --bg-color-700: hsl(0, 0%, 3%);
+}
 :root [data-bs-theme=dark] {
-  --bs-body-bg: #121212;
-  --bs-body-color: #f2f2f2;
+  --bs-body-bg: hsl(0, 0%, 5%);
+  --bs-body-color: hsl(0, 0%, 95%);
 }
 
 /*!
@@ -11904,7 +11908,7 @@ body {
 }
 
 [data-bs-theme=dark] #navbar {
-  background-color: rgba(18, 18, 18, 0.85);
+  background-color: rgba(13, 13, 13, 0.85);
 }
 
 .navbar__section {
@@ -12042,7 +12046,11 @@ body {
 }
 
 [data-bs-theme=dark] #portfolio {
-  background-color: black;
+  background-color: var(--bg-color-700);
+}
+
+#portfolio {
+  background-color: var(--bg-color-200);
 }
 
 /*# sourceMappingURL=style.css.map */

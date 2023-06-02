@@ -1,8 +1,10 @@
 :root {
   [data-bs-theme="dark"] {
-    --bs-body-bg: #121212;
-    --bs-body-color: #f2f2f2;
+    --bs-body-bg: hsl(0, 0%, 5%);
+    --bs-body-color: hsl(0, 0%, 95%);
   }
+  --bg-color-200: hsl(0, 0%, 93%);
+  --bg-color-700: hsl(0, 0%, 3%);
 }
 
 $primary: #c38e55;
