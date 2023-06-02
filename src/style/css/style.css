@@ -11866,6 +11866,7 @@ textarea.form-control-lg {
   /* Fonts */
   --ff-primary: "Montserrat", sans-serif;
   --fw-light: 200;
+  --fw-regular: 400;
   --fw-semi: 600;
   --fw-bold: 700;
   /* Effects */
@@ -11958,13 +11959,46 @@ body {
 
 .carousel__title {
   color: #fff;
+  font-size: 1.5rem;
   font-weight: var(--fw-bold);
+}
+@media (min-width: 576px) {
+  .carousel__title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel__title {
+    font-size: 3rem;
+  }
+}
+
+.carousel__subtitle {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: var(--fw-regular);
+}
+@media (min-width: 576px) {
+  .carousel__subtitle {
+    font-size: 1.5rem;
+    font-weight: var(--fw-light);
+    margin-block-end: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel__subtitle {
+    font-size: 2rem;
+  }
 }
 
 .carousel__text {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: #fff;
-  font-weight: var(--fw-semi);
+}
+@media (min-width: 576px) {
+  .carousel__text {
+    font-size: 0.875rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
