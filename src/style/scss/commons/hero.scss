@@ -1,5 +1,10 @@
 .carousel-item {
-  max-height: 720px;
+  max-height: 920px;
+  min-height: 300px;
+}
+
+.carousel-inner img {
+  min-height: 300px;
 }
 
 .carousel-caption {
@@ -16,7 +21,7 @@
   width: 50%;
   max-width: 540px;
   @media (min-width: 992px) {
-    left: 15%;
+    left: 14.5%;
     bottom: 15%;
     justify-content: start;
   }
@@ -49,7 +54,7 @@
   font-size: 1.5rem;
   font-weight: var(--fw-bold);
   @media (min-width: 576px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   @media (min-width: 1200px) {
     font-size: 3rem;

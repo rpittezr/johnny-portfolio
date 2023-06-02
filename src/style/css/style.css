@@ -11899,6 +11899,14 @@ body {
   font-size: 13px;
 }
 
+#navbar {
+  background-color: rgba(242, 242, 242, 0.95);
+}
+
+[data-bs-theme=dark] #navbar {
+  background-color: rgba(18, 18, 18, 0.85);
+}
+
 .navbar__section {
   background-color: #000;
 }
@@ -11929,7 +11937,12 @@ body {
 }
 
 .carousel-item {
-  max-height: 720px;
+  max-height: 920px;
+  min-height: 300px;
+}
+
+.carousel-inner img {
+  min-height: 300px;
 }
 
 @media (min-width: 992px) {
@@ -11948,7 +11961,7 @@ body {
 }
 @media (min-width: 992px) {
   .carousel__control {
-    left: 15%;
+    left: 14.5%;
     bottom: 15%;
     justify-content: start;
   }
@@ -11985,7 +11998,7 @@ body {
 }
 @media (min-width: 576px) {
   .carousel__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -12026,6 +12039,10 @@ body {
   .text__note {
     margin-block-start: 4rem;
   }
+}
+
+[data-bs-theme=dark] #portfolio {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
