@@ -9,9 +9,33 @@
 
   /* Effects */
   --transition: all 0.5s ease;
+
+  /* Utilities */
+  // Padding
+  --pd-section-lg: 6rem;
+  --pd-section-sm: 2rem;
 }
 
 /* General Styles */
 body {
   font-family: var(--ff-primary);
+}
+
+.section-padding {
+  padding-block: (var(--pd-section-sm));
+  @media (min-width: 576px) {
+    padding-block: (var(--pd-section-lg));
+  }
+}
+
+.tag {
+  &__hr {
+    max-width: 30px;
+  }
+}
+
+.text {
+  &__note {
+    font-size: 13px;
+  }
 }

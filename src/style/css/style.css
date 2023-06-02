@@ -1,6 +1,7 @@
 @charset "UTF-8";
 :root [data-bs-theme=dark] {
   --bs-body-bg: #121212;
+  --bs-body-color: #f2f2f2;
 }
 
 /*!
@@ -11871,11 +11872,31 @@ textarea.form-control-lg {
   --fw-bold: 700;
   /* Effects */
   --transition: all 0.5s ease;
+  /* Utilities */
+  --pd-section-lg: 6rem;
+  --pd-section-sm: 2rem;
 }
 
 /* General Styles */
 body {
   font-family: var(--ff-primary);
+}
+
+.section-padding {
+  padding-block: var(--pd-section-sm);
+}
+@media (min-width: 576px) {
+  .section-padding {
+    padding-block: var(--pd-section-lg);
+  }
+}
+
+.tag__hr {
+  max-width: 30px;
+}
+
+.text__note {
+  font-size: 13px;
 }
 
 .navbar__section {
@@ -11998,6 +12019,12 @@ body {
 @media (min-width: 576px) {
   .carousel__text {
     font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .text__note {
+    margin-block-start: 4rem;
   }
 }
 

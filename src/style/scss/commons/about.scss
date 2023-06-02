@@ -1,0 +1,7 @@
+.text {
+  &__note {
+    @media (min-width: 576px) {
+      margin-block-start: 4rem;
+    }
+  }
+}
